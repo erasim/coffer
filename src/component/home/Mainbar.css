@@ -1,0 +1,294 @@
+/** @format */
+
+.Mainbar-main {
+	width: 80%;
+	border-top: 1px solid rgb(218, 218, 218);
+	padding: 5px;
+}
+.sub-navbar {
+	display: inline-flex;
+	width: 98%;
+	background: #ffffff;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+	border-radius: 23px 23px 0px 0px;
+	height: 86px;
+}
+.Mainbar-main-sub-navbar-products {
+	margin: auto;
+	text-align: center;
+	width: 15%;
+}
+.Mainbar-main-sub-navbar-products svg {
+	background: #ffffff;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+	border-radius: 7px;
+	width: 27px;
+	height: 27px;
+	padding: 5px;
+	color: #c3cad9;
+}
+
+    .dropdown-content{display: none;}
+
+.Mainbar-main-sub-navbar-products a {
+	text-decoration: none;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	color: #6b7a99;
+}
+
+.Mainbar-main-sub-navbar-links .active {
+	border-bottom: 2px solid blue;
+	padding: 10px;
+}
+.Mainbar-main-sub-navbar-links {
+	margin: auto;
+	width: 60%;
+}
+.Mainbar-main-sub-navbar-links a {
+	margin-left: 20px;
+	text-decoration: none;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 13px;
+}
+.Mainbar-main-sub-navbar-button {
+	text-align: right;
+	margin: auto;
+}
+.Mainbar-main-sub-navbar-button button {
+	width: 138px;
+	height: 42px;
+	background: #8833ff;
+	border-radius: 33px;
+	border: none;
+}
+.Mainbar-main-sub-navbar-button svg {
+	margin-right: 10px;
+}
+/* small add button */
+.Mainbar-main-sub-navbar-button2 svg {
+	margin-right: 10px;
+}
+.Mainbar-main-sub-navbar-button2 button {
+	width: 138px;
+	height: 42px;
+	background: #8833ff;
+	border-radius: 33px;
+	border: none;
+}
+.Mainbar-main-sub-navbar-button2 {
+	text-align: right;
+	margin: auto;
+	display: none;
+}
+/* end button small */
+
+.sub-navbar-filterbar-main {
+	background: #ffffff;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+	/* border-radius: 0px; */
+	margin-top: 20px;
+	margin-bottom: 3px;
+	display: inline-flex;
+	width: 98%;
+	align-items: center;
+}
+.sub-navbar-filterbar-left {
+	margin: auto;
+	width: 30%;
+}
+.sub-navbar-filterbar-left span {
+	font-size: 1.2em;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 13px;
+
+	color: #7d8fb3;
+}
+.sub-navbar-filterbar {
+	width: 100%;
+
+	margin: 10px;
+}
+.sub-navbar-filterbar span {
+	margin: 10px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 13px;
+	color: #6b7a99;
+}
+.sub-navbar-filterbar button {
+	/* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	background-color: honeydew;
+	background-color: none;
+	border: 0.3px solid gray;
+	border-radius: 5px;
+	margin: 0px, 20px; */
+	background: #ffffff;
+	border: 2px solid #f2f4f8;
+	border-radius: 5px;
+	height: 41px;
+}
+
+.sub-navbar-filterbar svg {
+	margin-right: auto;
+	color: #d2d7e2;
+	width: 18px;
+	height: 18px;
+}
+.sub-navbar-filterbar-right {
+	display: inline-flex;
+}
+.sub-navbar-filterbar-right {
+	margin: auto;
+	margin-right: 10px;
+}
+.sub-navbar-filterbar-right svg {
+	width: 30px;
+	height: 30px;
+
+	border: 2px solid #f2f4f8;
+	border-radius: 5px;
+	color: #d2d7e2;
+	padding: 5px;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+.Mainbar-main-products-box {
+	display: flex;
+
+	justify-content: center;
+	margin: 10px;
+	flex-wrap: wrap;
+	background: #ffffff;
+	box-shadow: 7px 2px 4px rgba(0, 0, 0, 0.02);
+	border-radius: 0px 0px 23px 23px;
+}
+
+.Mainbar-main-product {
+	/* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+
+	margin: 10px;
+	text-align: center;
+	width: 221px;
+	height: 224px;
+	border-radius: 10px;
+	background-color: #fafbfc;
+}
+.Mainbar-main-product p {
+	color: #6b7a99;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 13px;
+}
+
+.Mainbar-main-product img {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	width: 86.55px;
+	height: 100px;
+}
+.Mainbar-main-product input {
+	position: absolute;
+	margin-left: -60px;
+	margin-top: 10px;
+}
+
+.Mainbar-main-product button {
+	margin-bottom: 10px;
+	border: none;
+
+	background: #ffffff;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+	border-radius: 25px;
+	font-family: "ABeeZee";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 12px;
+	padding: 5px;
+	/* identical to box height */
+
+	color: #92a1c1;
+}
+
+.checkbox-round {
+	width: 1.3em;
+	height: 1.3em;
+	background-color: white;
+	border-radius: 50%;
+	vertical-align: middle;
+	border: 1px solid #ddd;
+	appearance: none;
+	-webkit-appearance: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.checkbox-round:checked {
+	background-color: #8833ff;
+	background-image: url("../../Images/oktic.png");
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+}
+
+@media screen and (max-width: 920px) {
+	.sub-navbar-filterbar button span {
+		display: none;
+	}
+	.Mainbar-main {
+		width: 100%;
+	}
+	.sub-navbar-filterbar-left span {
+		display: none;
+		color: #7d8fb3;
+	}
+	.Mainbar-main-sub-navbar-products svg {
+		display: none;
+	}
+	.sub-navbar-filterbar svg {
+		width: 13px;
+		height: 10px;
+	}
+	.sub-navbar-filterbar button {
+		background: #ffffff;
+		border: 2px solid #f2f4f8;
+		border-radius: 5px;
+		height: 30px;
+	}
+
+	.sub-navbar-filterbar-right svg {
+		width: 28px;
+		height: 28px;
+		margin-left: -9px;
+	}
+
+	.Mainbar-main-sub-navbar-button2 button {
+		width: 68px;
+		height: 27px;
+		font-size: 10px;
+	}
+	.Mainbar-main-sub-navbar-button2 {
+		display: block;
+	}
+	.Mainbar-main-sub-navbar-button {
+		display: none;
+	}
+	.Mainbar-main-sub-navbar-links {
+		display: none;
+	}
+}

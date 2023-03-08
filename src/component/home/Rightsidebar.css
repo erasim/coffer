@@ -1,0 +1,144 @@
+/** @format */
+
+.Rightsidebar-main {
+	width: 20%;
+	padding: 5px;
+	background: #f7f8fa;
+	text-align: center;
+}
+.Rightsidebar-group-box {
+	/* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	margin: 5px;
+	border-radius: 8px;
+	border: 1px solid gray; */
+	margin: 5px;
+	border: 2px solid #edeff2;
+	border-radius: 19px;
+}
+.Rightsidebar-charts {
+	display: inline-flex;
+	width: 100%;
+	height: 100px;
+}
+.Rightsidebar-title {
+	border-top: 1px solid gray;
+}
+.Rightsidebar-chart-box-title {
+	text-align: center;
+	width: 50%;
+}
+.Rightsidebar-chart-box-title p {
+	margin-top: 14px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 13px;
+
+	color: #6b7a99;
+}
+.Rightsidebar-chart-box-title span {
+	font-family: "ABeeZee";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+	/* identical to box height */
+
+	color: #4d5e80;
+}
+.Rightsidebar-chart-box-chart {
+	width: 50%;
+}
+.Rightsidebar-chart-box-chart p {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 13px;
+	margin-top: 14px;
+
+	color: #6b7a99;
+}
+.Rightsidebar-title {
+	vertical-align: middle;
+	display: inline-flex;
+	width: 100%;
+	border: 2px solid #edeff2;
+}
+.Rightsidebar-chart-box-chart img {
+	width: 80%;
+	margin-top: 35px;
+}
+.Rightsidebar-chart-box-chart .chart1-line {
+	margin-top: -95px;
+}
+.Rightsidebar-chart-box-chart .chart2-line {
+	margin-top: -58px;
+}
+.Rightsidebar-charts2 {
+	display: inline-flex;
+	width: 100%;
+}
+.Rightsidebar-title2 {
+	text-align: center;
+	display: inline-flex;
+	font-size: 10px;
+	width: 100%;
+	border: 2px solid #edeff2;
+	margin-top: 5px;
+}
+.Rightsidebar-chart-box-title2 {
+	width: 30%;
+}
+.Rightsidebar-chart-box-title2 p {
+	margin-top: 5px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 13px;
+
+	color: #6b7a99;
+}
+.Rightsidebar-action-order-nav {
+	display: inline-flex;
+	width: 100%;
+}
+.Rightsidebar-action-order-nav-menu {
+	width: 33%;
+	font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #4D5E80;
+}
+.Rightsidebar-action-order-table {
+	display: inline-flex;
+	width: 100%;
+	margin-top:30px;
+}
+.Rightsidebar-action-order-index1 {
+	width: 30%;
+	border: 2px solid #edeff2;
+	border-radius: 30px;
+	margin-top: 13px
+}
+.Rightsidebar-action-order-index2 {
+	width: 70%;
+}
+.Rightsidebar-action-order-index2 p{font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 13px;
+	
+	color: #6B7A99;}
+.Rightsidebar-action-order-table p {
+	font-size: 12px;
+	margin: 0px;
+}
