@@ -1,0 +1,5 @@
+.deshbord{display: inline-flex;
+    justify-content: center;
+    width: 100%; }
+   .Leftbar{width: 20%;}
+   .Rightbar{width: 80%;}

@@ -11,7 +11,7 @@ export default function App() {
 	return (
 		<div className="App">
 <BrowserRouter>
-			<Navbar />
+			{/* <Navbar /> */}
 			<Routing />
 		</BrowserRouter>
 		</div>

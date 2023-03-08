@@ -2,6 +2,7 @@
 
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import Index from "../Deshbord/Index";
 import AddPolicy from "./Admin/AddPolicy";
 
 import Sighup from "./Admin/Sighup";
@@ -18,7 +19,7 @@ const Routing = () => {
 		<Routes>
 			<Route path='/sighup' element={<Sighup/>} />
 			<Route path='/addpolicy' element={<AddPolicy/>} />
-			<Route path='/*' element={<Shop/>} />
+			{/* <Route path='/*' element={<Shop/>} /> */}
 			<Route path='/auth' element={<SignIn />} />
 			<Route path='/products' element={<Products />} />
 			
@@ -26,6 +27,8 @@ const Routing = () => {
 			<Route path='/login/hr' element={< SignIn/>} />
 			<Route path='/login/Recruiter' element={< SignIn/>} />
 			<Route path='/login/employee' element={< SignIn/>} />
+			<Route path='/*' element={< Index/>} />
+			
 		
 		</Routes>
 	

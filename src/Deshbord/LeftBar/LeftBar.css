@@ -1,0 +1,41 @@
+/** @format */
+.LeftBar-top {
+	border: 1px solid rgb(212, 212, 212);
+
+	padding: 10px;
+}
+.left-logo {
+	display: inline-flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.logo-leftbar svg {
+	color: blue;
+	margin: 10px;
+}
+.css-1fdsijx-ValueContainer {
+	background-image: url("../img/envelope-open.svg");
+	background-repeat: no-repeat;
+	background-position: 10px;
+}
+.css-1jqq78o-placeholder {
+	margin-left: 30px !important;
+}
+.Leftbar-email img {
+	margin: 10px 10px 10px 10px;
+}
+
+.Leftbar-analtics {
+	background-color: none;
+	margin-top: 10px;
+}
+.Leftbar-analtics button {
+	text-align: start;
+	width: 100%;
+	border: none;
+	margin-left: 5px;
+}
+
+.Leftbar-analtics button img {
+	margin-right: 15px;
+}
