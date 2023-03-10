@@ -9,6 +9,7 @@ dotenv.config();
 import userRoutes from "./routes/users.js";
 import questionRoutes from "./routes/Questions.js";
 import answerRoutes from "./routes/answers.js";
+import cofferRoutes from "./routes/coffer.js";
 const app = express();
 app.use(express.json({ limit: "30mb", extended: true }));
 app.use(express.urlencoded({ limit: "30mb", extended: true }));
@@ -21,21 +22,26 @@ app.get("/", (req, res) => {
 app.use("/user", userRoutes);
 app.use("/questions", questionRoutes);
 app.use("/answer", answerRoutes);
+app.use("/coffer", cofferRoutes);
+
 // app.use('/user/*', (req, res)=>{  res.send("this is the stack overflow api ")})
 const PORT = process.env.PORT || 5000;
 const CONNECTION_URL = process.env.MONGODB_URI;
 
 // ==========VERCEL DEPLOY================
 if (process.env.NODE_ENV === "production") {
-    const path = require("path");
-    app.use(express.static(path.resolve(__dirname, 'client', 'build')));
-    app.get("*", (req, res) => {
-        res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'),function (err) {
-            if(err) {
-                res.status(500).send(err)
-            }
-        });
-    })
+	const path = require("path");
+	app.use(express.static(path.resolve(__dirname, "client", "build")));
+	app.get("*", (req, res) => {
+		res.sendFile(
+			path.resolve(__dirname, "client", "build", "index.html"),
+			function (err) {
+				if (err) {
+					res.status(500).send(err);
+				}
+			}
+		);
+	});
 }
 
 // if (process.env.NODE_ENV === "production") {

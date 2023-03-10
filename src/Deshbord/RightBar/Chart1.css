@@ -1,0 +1,10 @@
+/** @format */
+
+.table {
+	width: 100%;
+}
+.sub-table {
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-around;
+}

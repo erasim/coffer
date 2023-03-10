@@ -37,11 +37,7 @@ const PoliciesSchema = mongoose.Schema({
 	text9: {
 		type: String,
 		// required: "Question must have Body",
-	}
-
-	
-
+	},
 });
 
-
-export default mongoose.model("Policy", PoliciesSchema)
+export default mongoose.model("Policy", PoliciesSchema);
