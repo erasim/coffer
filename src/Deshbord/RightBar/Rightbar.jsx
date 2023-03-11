@@ -1,17 +1,15 @@
 /** @format */
 
 import React from "react";
-import Navbar from "../Navbar/Navbar";
-import Chart1 from "./Chart1";
-import "./Rightbar.css";
+import chart2 from "./chart2";
+import chartList from "./chartList";
 
 const Rightbar = () => {
 	return (
-		<div className='Rightbar-main'>
-			<Navbar />
-			<h1>this right bar</h1>
+		<div style={{ textAlign: "center", marginTop: 20 }}>
+			<h1>Rightbar</h1>
 			<div>
-				<Chart1 />
+				<chartList />
 			</div>
 		</div>
 	);

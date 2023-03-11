@@ -19,10 +19,6 @@ const Chart1 = () => {
 	return (
 		<div className='policy-detais-rigth-box'>
 			{dataList.map((e) => (
-				// <ul className='policy-main-card' key={e.id}>
-				// 	<li>{e.sector}</li>
-				// 	<li>{e.country}</li>
-				// </ul>
 				<table className='table'>
 					<tr key={e.id} className='sub-table'>
 						<td>{e.added}</td>
