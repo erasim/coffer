@@ -29,18 +29,30 @@ const PORT = process.env.PORT || 5000;
 const CONNECTION_URL = process.env.MONGODB_URI;
 
 // ==========VERCEL DEPLOY================
+app.use(
+	"/some-route",
+	require(path.join(__dirname, "api", "routes", "route.js"))
+);
+// if (process.env.NODE_ENV === "production") {
+// 	const path = require("path");
+// 	app.use(express.static(path.resolve(__dirname, "client", "build")));
+// 	app.get("*", (req, res) => {
+// 		res.sendFile(
+// 			path.resolve(__dirname, "client", "build", "index.html"),
+// 			function (err) {
+// 				if (err) {
+// 					res.status(500).send(err);
+// 				}
+// 			}
+// 		);
+// 	});
+// }
+
+// static files (build of your frontend)
 if (process.env.NODE_ENV === "production") {
-	const path = require("path");
-	app.use(express.static(path.resolve(__dirname, "client", "build")));
-	app.get("*", (req, res) => {
-		res.sendFile(
-			path.resolve(__dirname, "client", "build", "index.html"),
-			function (err) {
-				if (err) {
-					res.status(500).send(err);
-				}
-			}
-		);
+	app.use(express.static(path.join(__dirname, "../frontend", "build")));
+	app.get("/*", (req, res) => {
+		res.sendFile(path.join(__dirname, "../frontend", "build", "index.html"));
 	});
 }
 
